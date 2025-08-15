@@ -6,12 +6,12 @@ version='1.5'
 changelog='\nFix little bugs\nUpdated Picons List'
 ##############################################################
 
-TMPPATH=/tmp/CiefpOscamEditor
+TMPPATH=/tmp/speedyCiefpOscamEditor
 
 if [ ! -d /usr/lib64 ]; then
-	PLUGINPATH=/usr/lib/enigma2/python/Plugins/Extensions/CiefpOscamEditor
+	PLUGINPATH=/usr/lib/enigma2/python/Plugins/Extensions/speedy005CiefpOscamEditor
 else
-	PLUGINPATH=/usr/lib64/enigma2/python/Plugins/Extensions/CiefpOscamEditor
+	PLUGINPATH=/usr/lib64/enigma2/python/Plugins/Extensions/speedy005CiefpOscamEditor
 fi
 
 # check depends packges
@@ -77,9 +77,9 @@ else
    echo ""
    echo ""
 fi
-   wget https://github.com/speedy005/OscamEditor/archive/refs/heads/main.tar.gz
+   wget https://github.com/speedy005/speedy005OscamEditor/archive/refs/heads/main.tar.gz
    tar -xzf main.tar.gz
-   cp -r 'OscamEditor-main/usr' '/'
+   cp -r 'speedy005OscamEditor-main/usr' '/'
 set +e
 cd
 sleep 2
@@ -99,7 +99,7 @@ echo "#          speedy005pOscamEditor INSTALLED SUCCESSFULLY  #"
 echo "#                  developed by ciefp                   #"
 echo "#                   mod by speedy005                        #"
 echo "#                   Big thanks Qu4k3                    #"
-echo "#                  .::ciefpsettings::.                  #"
+echo "#                  .::speedy005pOscamEditor::.                  #"
 echo "#                  https://Sat-Club.EU                  #"
 echo "#########################################################"
 echo "#           your Device will RESTART Now                #"
