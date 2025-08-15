@@ -75,7 +75,7 @@ translations = {
     "no_readers": "Keine Leser in der Datei vorhanden.",
     "delete_reader_confirm": "Möchten Sie den Leser '{0}' wirklich löschen?",
     "reader_deleted": "Leser '{0}' gelöscht.",
-    "title_settings": "..:: Ciefp Oscam Editor Einstellungen ::..",
+    "title_settings": "..:: speedy005 Oscam Editor Einstellungen ::..",
     "dvbapi_path": "Pfad zu oscam.dvbapi",
     "language": "Sprache",
     "settings_saved": "Einstellungen gespeichert!",
