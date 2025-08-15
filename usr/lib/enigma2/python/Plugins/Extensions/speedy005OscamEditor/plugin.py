@@ -47,8 +47,8 @@ from Screens.ChoiceBox import ChoiceBox
 import urllib.request
 import subprocess
 
-VERSION_URL = "https://raw.githubusercontent.com/speedy005/OscamEditor/refs/heads/main/version.txt"
-UPDATE_COMMAND = 'wget -q --no-check-certificate https://raw.githubusercontent.com/speedy005/OscamEditor/main/installer.sh -O - | /bin/sh'
+VERSION_URL = "https://raw.githubusercontent.com/speedy005/speedy005OscamEditor/refs/heads/main/version.txt"
+UPDATE_COMMAND = 'wget -q --no-check-certificate https://raw.githubusercontent.com/speedy005/speedy005OscamEditor/main/installer.sh -O - | /bin/sh'
 PLUGIN_VERSION = "1.1.3"
 
 def check_for_update(session):
